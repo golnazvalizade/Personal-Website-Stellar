@@ -99,6 +99,13 @@ menu {
     display: block;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 body {
     -webkit-text-size-adjust: none;
 }
